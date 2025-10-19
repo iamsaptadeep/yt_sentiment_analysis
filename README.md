@@ -35,18 +35,9 @@ An interactive **Streamlit web application** that fetches live YouTube comments 
 
 ```mermaid
 graph TD
-A[YouTube API] -->|Fetches comments| B[Raw Comments DataFrame]
-B --> C[Preprocessing & Cleaning]
-C --> D[Sentiment Analysis (VADER)]
-D --> E[Visualizations & KPIs in Streamlit]
-E --> F[Downloadable Reports & Wordclouds]
+    A[YouTube API] -->|Fetches comments| B[Raw Comments DataFrame]
+    B --> C[Preprocessing & Cleaning]
+    C --> D[Sentiment Analysis (VADER)]
+    D --> E[Visualizations & KPIs in Streamlit]
+    E --> F[Downloadable Reports & Wordclouds]
 
-## 🌍 Live Demo (Deployed on Streamlit Cloud)
-👉 [**Open Live App**](https://ytsentimentanalysis.streamlit.app/)
-
----
-
-## 🧑‍💻 Author
-**Saptadeep Dey**  
-📍 Business Analytics Professional | Data Science Enthusiast  
-🔗 [LinkedIn](https://linkedin.com/in/saptadeep-gbs)
